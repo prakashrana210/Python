@@ -9,17 +9,24 @@
 #         sleep(4)
 #         print("VERY NICE")
 
-a=2
-b=0
-try:
-    d = a/b
-    print(d)
-except ZeroDivisionError:
-    print("Zero not allowed")
+# a=2
+# b=0
+# try:
+#     d = a/b
+#     print(d)
+# except ZeroDivisionError:
+#     print("Zero not allowed")
+#
+# else:
+#     print("fgfg")
+#
+# finally:
+#     print("xcbb")
+#
 
-else:
-    print("fgfg")
+# from selenium import webdriver
+# driver = webdriver.Chrome("C:\\Users\\Admin\\Desktop\\selenium_practice\\chromedriver.exe")
+# driver.get("https://google.com/")
 
-finally:
-    print("xcbb")
-    
+
+

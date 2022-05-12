@@ -5,7 +5,7 @@
 #practice class qns - file handling - 06.20.02.22.writing.files
 
 from collections import defaultdict, Counter
-path = r"C:\Users\Admin\PycharmProjects\shiv_prakash\Programme\File.Handling\Text_log_files\sample.txt"
+path = r"/Flie Handling\File.Handling\Text_log_files\sample.txt"
 
 """ line number and line in the file """
 
@@ -86,7 +86,7 @@ path = r"C:\Users\Admin\PycharmProjects\shiv_prakash\Programme\File.Handling\Tex
 
 """ list of ip address from access-log.txt file """
 
-path = r"C:\Users\Admin\PycharmProjects\shiv_prakash\Programme\File.Handling\Text_log_files\access-log.txt"
+path = r"/Flie Handling\File.Handling\Text_log_files\access-log.txt"
 
 # with open(path) as file:
 #     for line in file:
@@ -239,7 +239,7 @@ print()
 #.............................................................................................................
 import os
 print(os.getcwd())
-path = r"C:\Users\Admin\PycharmProjects\shiv_prakash\Programme\File.Handling\Text_log_files\sample.txt"
+path = r"/Flie Handling\File.Handling\Text_log_files\sample.txt"
 print(os.getcwd())
 
 # with open(path) as file:
@@ -280,9 +280,16 @@ print(os.getcwd())
 
 #the new file name is created by the system as path + f_path
 
-# f_path = r"C:\Users\Admin\PycharmProjects\shiv_prakash\Programme\File.Handling\Text_log_files\sample.txtfile1.txt"
+# f_path = r"C:\Users\Admin\PycharmProjects\shiv_prakash\Flie Handling\File.Handling\Text_log_files\sample.txtfile1.txt"
 #
 # with open(path + "sample.txtfile1", "a") as file:
 #     print(file.writelines(["hai\n", "hello\n", "python"]))
 
-selenium_practice
+# selenium_practice
+
+path = r"C:\Users\Admin\PycharmProjects\shiv_prakash\Flie Handling\File.Handling\Text_log_files\sample.txt"
+path_f = r"C:\Users\Admin\PycharmProjects\shiv_prakash\Flie Handling\File.Handling\Text_log_files\sample.txtfile1.txt"
+
+with open(path, 'r') as file1, open(path_f, 'w') as file2:
+    for line in file1:
+        file2.write(line)

@@ -4,19 +4,19 @@
 
 #..
 
-import time
-
-def decor(func):
-    def inner():
-        start = time()
-        result = func()
-        end = time()
-        print(f"execution time of function {func.__name__} is {end-start} seconds")
-        return result
-    return inner
-@decor
-def greet():
-    return "hello world"
+# import time
+#
+# def decor(func):
+#     def inner():
+#         start = time()
+#         result = func()
+#         end = time()
+#         print(f"execution time of function {func.__name__} is {end-start} seconds")
+#         return result
+#     return inner
+# @decor
+# def greet():
+#     return "hello world"
 
 #print(greet())
 
@@ -30,19 +30,19 @@ def greet():
 
 #..........................................................................................
 
-from time import time
-
-def decor(func):
-    def inner():
-        start = time()
-        result = func()
-        end = time()
-        print(f"execution time of function {func.__name__} is {end-start} seconds")
-        return result
-    return inner
-@decor
-def greet():
-    return "hello world"
+# from time import time
+#
+# def decor(func):
+#     def inner():
+#         start = time()
+#         result = func()
+#         end = time()
+#         print(f"execution time of function {func.__name__} is {end-start} seconds")
+#         return result
+#     return inner
+# @decor
+# def greet():
+#     return "hello world"
 
 #print(greet())
 

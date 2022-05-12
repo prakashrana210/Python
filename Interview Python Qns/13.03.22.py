@@ -113,7 +113,7 @@ names = ['apple', 'yahoo', 'google', 'gmail', 'walmart', 'flipkart', 'facebook',
 
 """ 47 Count number of lines in a file without loading the file to the memory """
 
-# path = r"C:\Users\Admin\PycharmProjects\shiv_prakash\Programme\File.Handling\Text_log_files\sample.txt"
+# path = r"C:\Users\Admin\PycharmProjects\shiv_prakash\Flie Handling\File.Handling\Text_log_files\sample.txt"
 # with open(path) as file:
 #
 

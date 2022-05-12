@@ -15,6 +15,7 @@ import time
 # print(func(2, 3))
 
 
+
 # def reverse(spam):
 #     def wrapper(*args, **kwargs):
 #         return spam(*args, **kwargs)[::-1]

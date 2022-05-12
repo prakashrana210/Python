@@ -1,0 +1,7 @@
+hello world 1
+hello world hello universe hello world welcome to python 2
+hello world hello universe hello world welcome to python 3
+hello world python 4
+programming in python is fun 5
+java is fun 6
+python is easy 7
